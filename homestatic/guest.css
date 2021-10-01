@@ -1,0 +1,50 @@
+.main-conti{
+    overflow-y:scroll;
+    border: 1px; #000000;
+    width:510px;
+    height:580px;
+    border: 1px solid #c9d4da;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-visior{
+  width:98%;
+  height:230px;
+  margin-left:10px;
+  margin-top:10px;
+}
+
+.visite-title{
+    width:90%;
+    height:35px;
+    line-height:3;
+    padding-left:15px;
+    padding-bottom: 3px;
+    background-color: rgb(226, 237, 245);
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: 600;
+}
+
+.guest-image {
+    display: flex;
+    height: 8rem;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-around;
+    margin-right:50px;
+}
+
+.background1 {
+    margin-top:10px;
+}
+
+.background1 p{
+
+    font-size:14px;
+}
+  
+.guest-image > img {
+    width: 30%;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./homestatic/layout.css"/>
+    <link rel="stylesheet" href="./homestatic/home.css"/>
+    <link rel="stylesheet" href="./homestatic/font.css"/>
+    <link rel="stylesheet" href="./homestatic/photo.css"/>
+    <link rel="stylesheet" href="./homestatic/diary.css"/>
+    <link rel="stylesheet" href="./homestatic/guest.css"/>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="container">
+            <div class="text1"><span style="color:red";>TODAY</span> 34｜TOTAL 234918</div>
+            <div class="box">
+              <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA3MjdfMzUg%2FMDAxNTMyNjY4MjEwNDk2.EYmUBfm1ylDdseJLqi8BxL2AH1_qllnD4HUa-cjOYuUg.GpDiAFnfwgjdY5LUne7DHLo_t0viQHS16-RXYLKFFVEg.GIF.purecomet0%2FC8824E2A-F090-4271-AE64-B94798F890F8-456-00000015B4C5B8AD_file.GIF&type=sc960_832_gif" class="img" alt="프사" width="200" height="150"/>
+              <div class="goal" style="padding-bottom: 20px;"><b>"인생을 야무지게 살자"</b></div>
+              <div class="name" style="margin-left: 10px;">Name: 제리니블스</div>
+              <div class="name" style="margin-left: 10px;">Age: 3살</div>
+              <div class="name" style="margin-left: 10px; margin-bottom: 180px;">residence: rat hole</div>
+              <div class="profile-dropdown">
+                <div class="dropdown-btn">
+                  <div class="dropdown-title">파도타기</div>
+                  <div class="triangle-down"></div>
+                </div>
+                <div class="dropdown-content">
+                  <a href="#">블로그가기</a>
+                  <a href="#">인스타가기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container2">
+            <div class="column2">
+              <div class="text2">제리니블스's 생존 일기🐹🧡</div>
+              <div class="text3">https://Jerry Nibbles.com</div>
+            </div>
+            <div class="content-box">
+                <div class="date-box">
+                    <div class="today">09.28<br/>TUE</div>
+                    <div class="date-list">
+                      <div class="date">1</div>
+                      <div class="date">2</div>
+                      <div class="date">3</div>
+                      <div class="date"><span class="color-blue">4</span></div>
+                      <div class="date"><span class="color-red">5</span></div>
+                      <div class="date">6</div>
+                      <div class="date">7</div>
+                      <div class="date">8</div>
+                      <div class="date">9</div>
+                      <div class="date">10</div>
+                      <div class="date"><span class="color-blue">11</span></div>
+                      <div class="date"><span class="color-red">12</span></div>
+                      <div class="date">13</div>
+                      <div class="date">14</div>
+                      <div class="date">15</div>
+                      <div class="date">16</div>
+                      <div class="date">17</div>
+                      <div class="date"><span class="color-blue">18</span></div>
+                      <div class="date"><span class="color-red">19</span></div>
+                      <div class="date">20</div>
+                      <div class="date">21</div>
+                      <div class="date">22</div>
+                      <div class="date">23</div>
+                      <div class="date">24</div>
+                      <div class="date"><span class="color-blue">25</span></div>
+                      <div class="date"><span class="color-red">26</span></div>
+                      <div class="date">27</div>
+                      <div class="date">28</div>
+                      <div class="date">29</div>
+                      <div class="date">30</div>
+                    </div>
+                </div>
+                <div class="conti-diary-box">
+                  <br><br>
+                 <div class="diary-textbox">
+                     <div class="diary-date">2021-09-28</div>
+                     <div class="diary-content"><span style="color:rgb(250, 92, 166)";>해야 할 일</span><br><br>
+                        모각코 일일 과제<br>
+                        동아리 발표<br>
+                        밀린 강의 듣기<br>
+                        실습 과제<br>
+                        예시 업로드<br>
+                        객관화 과제<br>
+                      </div>
+                 </div>
+                 <div class="diary-textbox">
+                    <div class="diary-date">2021-09-27</div>
+                    <div class="diary-content">정말 과제는 해도해도 끝이 없구나<br>
+                        교수님, 전 교수님 수업만 듣는게 아닌걸요..<br>
+                        점점 쌓여가는 과제에 다크서클은 깊어져만 갑니다.<br>
+                        이제 종강할 때 다 됐다 마!<br>
+                        종강 Plz<br></div>
+                </div>
+                <div class="button-box">
+                  <button class="hidden-button" onclick="getTextFile()">
+                    비밀일기 입장
+                  </button>
+                </div>
+                <div class="hidden-box" id="secret-box">
+                  <div class="secret-text" id="secret-diary"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu">
+          <a href = "./home.html">홈</a>
+          <a href = "./diary.html">다이어리</a>
+          <a href = "./photo.html">사진첩</a>
+          <a href = './guest.html'>방명록</a>
+        </div>
+      </div>
+    </div>
+    <script>
+      function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function (event) {
+          processFile(event.target.files[0]);
+        };
+        input.click();
+      }
+     
+      function processFile(file) {
+        var reader = new FileReader();
+        reader.readAsText(file, "utf-8");
+     
+        reader.onload = function () {
+          document.getElementById("secret-diary").innerText = reader.result;
+          document.getElementById("secret-box").style.display = "block";
+        };
+      }
+    </script>
+  </body>
+</html>

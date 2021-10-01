@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&family=Song+Myung&display=swap");
+
+.name {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 600;
+}
+
+.goal {
+    font-family: 'Song Myung', serif;
+    font-size: 20px;
+    color: rgb(122, 145, 247);
+}
+
+.diary-content {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
